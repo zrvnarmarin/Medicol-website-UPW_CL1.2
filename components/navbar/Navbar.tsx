@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Navbar() {
     return (
         <header className="py-6">
-            <nav className="px-8 sm:px-16 md:px-24 lg:px-16 xl:px-12 2xl:px-32 3xl:px-64">
+            <nav className="px-4 sm:px-16 md:px-24 lg:px-16 xl:px-12 2xl:px-32 3xl:px-64">
                 <ul className="flex items-center justify-between">
                     <div className="flex items-center gap-12">
                         <li className="block">
