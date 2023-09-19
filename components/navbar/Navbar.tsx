@@ -1,4 +1,4 @@
-import { LogoIcon } from "@/public/icons"
+import { LogoIcon, OpenMobileNavbar } from "@/public/icons"
 import Link from "next/link"
 
 export default function Navbar() {
@@ -7,10 +7,10 @@ export default function Navbar() {
             <nav className="px-8 sm:px-16 md:px-24 lg:px-16 xl:px-12 2xl:px-32 3xl:px-64">
                 <ul className="flex items-center justify-between">
                     <div className="flex items-center gap-12">
-                        <li>
+                        <li className="block">
                             <Logo />
                         </li>
-                        <div className="flex itsms-center gap-12">
+                        <div className="hidden xl:flex items-center gap-12">
                             {navLinks.map(navlink =>
                                 <li key={navlink.id} className="text-[#67787C] font-medium">
                                     <Link href={navlink.href}>
@@ -20,10 +20,15 @@ export default function Navbar() {
                             )}
                         </div>
                     </div>
-                    <li className="bg-[#24BEE0] text-white text-md font-normal px-8 py-3 rounded-full">
+                    <li className="hidden xl:block bg-[#24BEE0] text-white text-md font-normal px-8 py-3 rounded-full">
                         <Link href='#make-apointment'>
                             Make Appointment
                         </Link>
+                    </li>
+                    <li className="block xl:hidden">
+                        <button>
+                            <OpenMobileNavbar />
+                        </button>
                     </li>
                 </ul>
             </nav>
