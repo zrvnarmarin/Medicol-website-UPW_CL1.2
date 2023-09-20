@@ -36,7 +36,7 @@ export default function Navbar() {
     )
 }
 
-const Logo = () => {
+export const Logo = () => {
     return (
         <div className="flex items-center gap-3">
             <LogoIcon />

@@ -2,7 +2,7 @@ import { MedicalIcon, LabAchievementsIcon, TrainingRoutineIcon, DNAIcon, Medical
 
 export default function WhyUsSection() {
     return (
-        <section className="mt-24 flex flex-col gap-8 bg-[#F4F5F4]">
+        <section className="mt-24 flex flex-col gap-8 bg-[#F7FCFD]">
             <h1 className="text-black font-bold text-2xl">Why Us</h1>
             <div className="grid grid-cols-1 gap-8">
                 {otherServices.map(service => 

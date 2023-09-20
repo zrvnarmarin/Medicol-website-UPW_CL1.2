@@ -2,6 +2,8 @@ import Navbar from '@/components/navbar/Navbar'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import MakeAppointmentSection from '@/components/general/appointment-section/MakeAppointmentSection'
+import Footer from '@/components/general/footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +22,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         {children}
+        {/* <MakeAppointmentSection /> */}
+        <Footer />
       </body>
     </html>
   )
