@@ -9,7 +9,7 @@ export default function TestimonialsSection() {
         <section className="mt-24 grid grid-cols-1 gap-8 bg-white">
             <div className="flex flex-col justify-between gap-8">
                 <div className="flex items-center justify-between">
-                    <h1 className="text-black font-bold text-2xl">Our Services</h1>
+                    <h1 className="text-black font-bold text-2xl">Testimonials</h1>
                     <div className="flex flex-row items-center gap-3">
                         <button>
                             <LeftArrowIconNonPaginated />

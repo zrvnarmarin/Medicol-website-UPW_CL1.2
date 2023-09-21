@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 export default function DoctorsSection() {
     return (
-        <section className="mt-24 flex flex-col gap-8">
+        <section className="mt-24 flex flex-col gap-8 mb-20">
             <h1 className="text-black font-bold text-2xl">Our Qualified Doctors</h1>
             <button className="w-fit flex items-center gap-4 drop-shadow-2xl border-[#CF7D4E] border-2 text-white text-md font-medium px-6 py-4 rounded-full">
                 <span className='text-[#CF7D4E]'>See All Doctors</span>

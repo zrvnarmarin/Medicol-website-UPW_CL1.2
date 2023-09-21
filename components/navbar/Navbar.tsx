@@ -20,7 +20,7 @@ export default function Navbar() {
                             )}
                         </div>
                     </div>
-                    <li className="hidden xl:block bg-[#24BEE0] text-white text-md font-normal px-8 py-3 rounded-full">
+                    <li className="hidden xl:block bg-[#24BEE0] text-white text-md font-medium px-8 py-3 rounded-full">
                         <Link href='#make-apointment'>
                             Make Appointment
                         </Link>
